@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LeoNet"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Object-C网络请求框架"
   s.description  = <<-DESC
                    基于AFNetworking的网络请求框架
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/LeoChensj/LeoNet.git", :tag => "#{s.version}" }
   s.source_files = "LeoNet/*.{h,m}"
-  s.public_header_files = "LeoNet/LeoRequest.h"
+  s.public_header_files = "LeoNet/*.h"
   s.requires_arc = true
   s.dependency "AFNetworking"
   s.dependency "GreedJSON"
