@@ -48,7 +48,7 @@
 
 - (id)decrypt:(NSString *)string
 {
-    return nil;
+    return string;
 }
 
 - (id)cacheFileNameFilterForRequestArgument:(id)argument

@@ -66,11 +66,11 @@
     return @"您的网络不太给力，请稍后再试";
 }
 
-- (id)decrypt:(NSString *)string
-{
-    //这里加入解密代码
-    return string;
-}
+//- (id)decrypt:(NSString *)string
+//{
+//    //这里加入解密代码
+//    return string;
+//}
 
 - (id)responseModel
 {

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LeoNet"
-  s.version      = "1.1"
+  s.version      = "1.2"
   s.summary      = "Object-C网络请求框架"
   s.description  = <<-DESC
                    基于AFNetworking的网络请求框架
